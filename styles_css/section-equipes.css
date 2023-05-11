@@ -1,0 +1,16 @@
+.is-bg-equipes {
+    background: url(../assets/backgrounds/background_03.jpg) no-repeat center center / cover;
+}
+
+.section__equipes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 3.3rem;
+
+    padding: 0rem 5%;
+}
+
+.img {
+    width: 100%;
+    border: .2rem solid var(--header-title-color);
+}

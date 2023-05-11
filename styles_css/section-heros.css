@@ -1,0 +1,110 @@
+.is-bg-heros {
+    background: url(../assets/backgrounds/background_02.jpg) no-repeat center center / cover;
+}
+
+.section__ul {
+    display: flex;
+    gap: 3.3rem;
+
+    overflow: hidden;
+    position: relative;
+    padding: 3px 0px;
+}
+
+.section__avatar {
+    width: 20rem;
+    height: 28rem;
+
+    background: #222;
+    flex-shrink: 0;
+    position: relative;
+    border: .1rem solid #e9d68f54; 
+
+}
+
+/* Estilo que faz a Moldura dos Cartões dos heróis */
+.section__avatar::before, .section__avatar::after {
+    content: "";
+    width: 5rem;
+    height: 5rem;
+    
+    position: absolute;
+}
+
+.section__avatar::before {
+    border-top: .5rem solid var(--header-title-color);
+    border-left: .5rem solid var(--header-title-color);
+    top: -0.3rem;
+    left: -0.3rem;
+}
+
+.section__avatar::after {
+    border-bottom: .5rem solid var(--header-title-color);
+    border-right: .5rem solid var(--header-title-color);
+    bottom: -0.3rem;
+    right: -0.3rem;
+}
+
+
+.section__li-p {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0rem 0rem .3rem rgba(0, 0, 0, 0.384);
+    padding: 3rem;
+
+    font-size: 2.4rem;
+    font-family: 'Aldrich', sans-serif;
+    color: var(--text-color-menu);
+}
+
+.is-cowboy {
+    background: url(../assets/heros/cowboy.jpg) no-repeat center center / 110%;
+}
+
+.is-lanceiro {
+    background: url(../assets/heros/lanceiro.jpg) no-repeat center center / 110%;
+}
+
+.is-capitan {
+    background: url(../assets/heros/capitan.jpg) no-repeat center center / 110%;
+}
+
+.is-lutador {
+    background: url(../assets/heros/lutador.jpg) no-repeat center center / 110%;
+}
+
+.is-atirador {
+    background: url(../assets/heros/atirador.jpg) no-repeat center center / 110%;
+}
+
+.is-cavaleiro {
+    background: url(../assets/heros/cavaleiro.jpg) no-repeat center center / 110%;
+}
+
+.section__arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+
+    box-shadow: 0rem 0rem .8rem #2222226c;
+    background: var(--button-cta-content-color-hover);  
+    border: .1rem solid var(--header-title-color);
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.is-arrow-left {
+    left: 2rem;
+}
+
+.is-arrow-right {
+    right: 2rem;
+}
+
+@media (min-width: 1200px) {
+
+    .section__avatar {
+        width: 29rem;
+        height: 40rem;
+    }
+}

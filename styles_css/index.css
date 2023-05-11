@@ -1,0 +1,28 @@
+/* Importando fonts do google */
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Bakbak+One&family=Inter:wght@400;700&display=swap');
+
+/* Resetando Estilos CSS*/ 
+@import url(./reset.css);
+
+/* Configuração das variáveis CSS*/
+@import url(./root.css);
+
+/* Estilo do elemento Header*/
+@import url(./header.css);
+
+/* Estilos dos sections */
+@import url(./section.css);
+@import url(./section-game.css);
+@import url(./section-heros.css);
+@import url(./section-equipes.css);
+@import url(./section-sobre.css);
+
+/* Estilo do Footer (Rodapé)*/
+@import url(./footer.css);
+
+
+/* Estilo da página play-game.html */
+
+/* Media Query */
+@import url(./responsive-tablet.css);
+

@@ -1,0 +1,38 @@
+.is-bg-game {
+    background: url(../assets/backgrounds/background_01.jpg) no-repeat center center / cover;
+}
+
+.section__cards {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.section__card {
+    background: rgba(99, 34, 35, 0.35);
+    width: 27.5rem;
+    padding: 1rem 1.2rem;
+    border-bottom: .5rem solid var(--header-title-color);
+    backdrop-filter: blur(10px);
+}
+
+.section__p {
+    font-size: 1.6rem;
+    color: #fff;
+    margin-top: 1rem;
+
+    line-height: 130%;
+}
+
+.section__message {
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 120%;
+    text-align: center;
+
+    display: block;
+    width: 70%;
+    margin: auto;
+    padding: 5rem 0rem;
+}

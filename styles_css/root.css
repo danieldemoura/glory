@@ -1,0 +1,36 @@
+* {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --font-default: 'Inter', sans-serif;
+    --font-header-title: 'Bakbak One', cursive;
+    --text-color-menu: #FFFFFF;
+
+    --header-title-color: #E9D68F;
+    --header-title-shadow: 0rem 0rem .4rem rgba(242, 21, 21, 0.8);
+    --header-subtitle-color: #FFFFFF;
+    --header-subtitle-shadow: 0rem 0rem .5rem rgba(0, 0, 0, .3);
+
+    --button-cta-border-color: hsla(47, 67%, 74%, 1);
+    --button-cta-content-color: #E9D68F;
+    --button-cta-content-color-hover: #790000;
+    --button-cta-text-color: #000000;
+
+    --footer-background-color: rgb(13, 13, 13);
+
+    font-family: var(--font-default);
+    font-size: 62.5%;
+}
+
+::-webkit-scrollbar {
+    width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.945);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--button-cta-content-color-hover);
+}

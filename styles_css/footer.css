@@ -1,0 +1,35 @@
+.footer {
+    padding: 4.5rem 2.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5.5rem;
+
+    background: var(--footer-background-color);
+    color: var(--text-color-menu);
+    font-size: 1.4rem;
+}
+
+.footer__logo {
+    height: 15rem;
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+}
+
+.footer__img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__information {
+    display: flex;
+    gap: 3.3rem;
+    justify-content: center;
+}

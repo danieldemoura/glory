@@ -1,0 +1,36 @@
+.is-bg-sobre {
+    background: #050505;
+    border-bottom: 1rem solid var(--header-title-color);
+    position: relative;
+}
+
+.section__sobre .section__description {
+    text-align: left;
+}
+
+@media (min-width: 1200px) {
+
+    .is-bg-sobre {
+        background: url(../assets/backgrounds/background_04.jpg)  no-repeat center / cover;
+    }
+    
+    .is-bg-sobre::after {
+        content: "";
+        width: 80%;
+        height: 100%;
+    
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: linear-gradient(270deg, #050505 58%, rgba(5, 5, 5, 0) 100%);
+    }
+    
+    .section__sobre {
+        width: 50rem;
+        margin-right: 8%;
+    
+        position: relative;
+        z-index: 1;
+    }
+    
+}
